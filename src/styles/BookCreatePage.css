@@ -1,0 +1,76 @@
+.form-container {
+  padding: 24px;
+  max-width: 600px;
+}
+
+.form-title {
+  margin-bottom: 24px;
+  color: #1B3A5C;
+}
+
+.form-group {
+  margin-bottom: 16px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #1B3A5C;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #3CC8BE;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+.form-buttons {
+  display: flex;
+  gap: 8px;
+  margin-top: 24px;
+}
+
+.cancel-button {
+  padding: 8px 24px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  cursor: pointer;
+  background: white;
+}
+
+.cancel-button:hover {
+  background: #f3f4f6;
+}
+
+.submit-button {
+  padding: 8px 24px;
+  background: #3CC8BE;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background: #2db8ae;
+}
+
+.submit-button:disabled {
+  background: #999;
+  cursor: not-allowed;
+}

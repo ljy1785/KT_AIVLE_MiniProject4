@@ -1,0 +1,129 @@
+.detail-container {
+  padding: 24px;
+  max-width: 600px;
+}
+
+.back-button {
+  margin-bottom: 24px;
+  cursor: pointer;
+  padding: 6px 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background: white;
+}
+
+.back-button:hover {
+  background: #f3f4f6;
+}
+
+.detail-top {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.detail-cover {
+  width: 150px;
+  min-width: 150px;
+  height: 200px;
+  background: #f3f4f6;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.detail-cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.detail-cover-empty {
+  color: #999;
+  font-size: 12px;
+}
+
+.detail-info h2 {
+  color: #1B3A5C;
+  margin-bottom: 8px;
+}
+
+.detail-info p {
+  color: #666;
+  margin-bottom: 4px;
+}
+
+.detail-date {
+  color: #999;
+  font-size: 13px;
+}
+
+.detail-content-box {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 24px;
+  line-height: 1.6;
+}
+
+.detail-content-box h3 {
+  margin-bottom: 8px;
+  color: #1B3A5C;
+}
+
+.detail-content-box p {
+  color: #374151;
+}
+
+.ai-box {
+  background: #f0fffe;
+  border: 1px solid #3CC8BE;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 24px;
+}
+
+.ai-box h3 {
+  margin-bottom: 12px;
+  color: #1B3A5C;
+}
+
+.ai-box p {
+  font-size: 13px;
+  color: #666;
+}
+
+.detail-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.edit-button {
+  padding: 8px 24px;
+  background: #1B3A5C;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.edit-button:hover {
+  background: #162d47;
+}
+
+.delete-button {
+  padding: 8px 24px;
+  background: #ef4444;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background: #dc2626;
+}
